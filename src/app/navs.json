@@ -1,0 +1,7 @@
+[
+  { "id": "id-1", "nav": "About" },
+  { "id": "id-2", "nav": "Services" },
+  { "id": "id-3", "nav": "Career" },
+  { "id": "id-4", "nav": "Gallery" },
+  { "id": "id-5", "nav": "Contacts" }
+]
