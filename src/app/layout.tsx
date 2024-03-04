@@ -1,6 +1,12 @@
 import React from 'react';
+import { Inter } from 'next/font/google';
 import type { Metadata } from 'next';
 import './globals.css';
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+});
 
 export const metadata: Metadata = {
   title: 'CarpTravel',
@@ -15,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${inter.variable} font-sans`}>{children}</body>
     </html>
   );
 }
