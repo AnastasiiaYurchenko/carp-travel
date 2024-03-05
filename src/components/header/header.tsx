@@ -1,18 +1,27 @@
 import React from 'react';
 import Image from 'next/image';
-import MobileMenu from '../mobile-menu/mobile-menu';
+import Link from 'next/link';
+// import MobileMenu from '../mobile-menu/mobile-menu';
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center mx-auto px-2.5 py-9">
-      <Image src="/logo.png" width={61} height={33} alt="Logo" />
-      <button
-        className="uppercase tracking-widest font-normal text-sm"
-        type="button"
-      >
-        Menu
-      </button>
-      <MobileMenu />
+    <header className="absolute z-10 w-full ">
+      <div className="mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1440px] px-5 md:px-8 xl:px-[104px] pt-9 md:pt-7 flex justify-between items-center">
+        <nav>
+          <Link href="/">
+            <Image src="/logo.png" width={61} height={33} alt="Logo" />
+          </Link>
+        </nav>
+
+        <button
+          className="md:hidden uppercase tracking-widest font-normal text-sm text-white"
+          type="button"
+        >
+          Menu
+        </button>
+      </div>
+
+      {/* <MobileMenu /> */}
     </header>
   );
 }

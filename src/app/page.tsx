@@ -1,5 +1,4 @@
 import Hero from '@/sections/hero/hero';
-import navs from './navs.json';
 import Header from '@/components/header/header';
 import About from '@/sections/about/about';
 import Services from '@/sections/services/services';

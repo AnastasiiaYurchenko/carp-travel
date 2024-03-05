@@ -11,11 +11,11 @@ import RightFrameDesk from '/public/assets/svg/right-frame-desk.svg';
 
 export default function Hero() {
   return (
-    <div className="bg-black/50">
-      <div className="px-5 py-9 pb-14">
-        <h1 className="text-white font-thin uppercase text-right text-[37px] tracking-[.04em] leading-[1.22] mb-6">
-          <span className="font-medium">7</span>days
-          <span className="block font-light uppercase text-xs tracking-[.79em] leading-tight mt-[-7px]">
+    <div className="section">
+      <div className="mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1440px] px-5 md:px-8 xl:px-[104px] pt-[105px] md:pt-[121px]  pb-14">
+        <h1 className="ml-auto w-[118px] md:w-[230px]  xl:w-[305px] text-white font-thin uppercase text-right text-[37px] md:text-[67px] xl:text-[98px] tracking-[.04em] md:tracking-[.13em] xl:tracking-normal leading-[1.22] mb-6">
+          <span className="font-medium xl:mr-2">7</span>days
+          <span className="block font-light uppercase text-xs md:text-sm xl:text-base tracking-[.79em] md:tracking-[1.85em] xl:tracking-[2.28em] leading-tight mt-[-7px]">
             journey
           </span>
         </h1>
@@ -30,10 +30,10 @@ export default function Hero() {
           Carpathians. Enjoy stunning views, exciting expeditions, and the best
           service!
         </p>
-        <div className="relative md:inline-block">
+        <div className="relative cursor-pointer md:inline-block">
           <Link
             href="#contacts"
-            className="inline-block w-full md:w-[230px] xl:w-[293px] py-[2.5px] md:py-[14px] xl:py-[16px] text-white uppercase font-bold text-lg xl:text-[32px] text-center leading-[2.67] md:leading-[1.29] bg-white/10 md:bg-white/5 hover:bg-white/20"
+            className="inline-block w-full md:w-[230px] xl:w-[293px] py-[2.5px] md:py-[14px] xl:py-[16px] text-white uppercase font-bold text-lg xl:text-[32px] text-center leading-[2.67] md:leading-[1.29] bg-white/10 md:bg-white/5 transition-colors hover:bg-white/20"
             //   className="btn-primary"
           >
             join now
