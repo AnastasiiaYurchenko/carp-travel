@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className="bg-black/50">
+    <div id="about" className="bg-black/50">
       <div className="px-5 py-[54px]">
         <h2 className=" w-[280px] text-white uppercase font-thin text-[40px] leading-[1.4] tracking-[-.04em] mb-2">
           who <span className="font-medium">we are</span>
