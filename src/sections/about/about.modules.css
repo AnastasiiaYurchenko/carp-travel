@@ -1,0 +1,93 @@
+.container-about {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 24, 38, 0.75), rgba(0, 37, 49, 0)),
+    linear-gradient(rgba(2, 15, 8, 0.5), rgba(2, 15, 8, 0.5)),
+    url('../../../public/assets/images/about/bg-about-m-320.jpg');
+  background-repeat: no-repeat;
+  background-size:
+    auto 247px,
+    cover,
+    cover;
+  background-position: top, center, center;
+  background-color: #d9d9d9;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .container-about {
+    background-image: linear-gradient(rgba(0, 24, 38, 0.75), rgba(0, 37, 49, 0)),
+      linear-gradient(rgba(2, 15, 8, 0.5), rgba(2, 15, 8, 0.5)),
+      url('../../../public/assets/images/about/bg-about-m-320@2x.jpg');
+  }
+}
+
+@media (min-width: 321px) {
+  .container-about {
+    background-image: linear-gradient(rgba(0, 24, 38, 0.75), rgba(0, 37, 49, 0)),
+      linear-gradient(rgba(2, 15, 8, 0.5), rgba(2, 15, 8, 0.5)),
+      url('../../../public/assets/images/about/bg-about-m-480.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .container-about {
+      background-image: linear-gradient(
+          rgba(0, 24, 38, 0.75),
+          rgba(0, 37, 49, 0)
+        ),
+        linear-gradient(rgba(2, 15, 8, 0.5), rgba(2, 15, 8, 0.5)),
+        url('../../../public/assets/images/about/bg-about-m-480@2x.jpg');
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .container-about {
+    background-image: linear-gradient(rgba(0, 24, 38, 0.75), rgba(0, 37, 49, 0)),
+      linear-gradient(rgba(2, 15, 8, 0.5), rgba(2, 15, 8, 0.5)),
+      url('../../../public/assets/images/about/bg-about-tab.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .container-about {
+      background-image: linear-gradient(
+          rgba(0, 24, 38, 0.75),
+          rgba(0, 37, 49, 0)
+        ),
+        linear-gradient(rgba(2, 15, 8, 0.5), rgba(2, 15, 8, 0.5)),
+        url('../../../public/assets/images/about/bg-about-tab@2x.jpg');
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-about {
+    max-width: 1440px;
+    background-size:
+      auto 146px,
+      cover,
+      cover;
+    background-image: linear-gradient(rgba(0, 24, 38, 0.5), rgba(0, 37, 49, 0)),
+      linear-gradient(rgba(2, 15, 8, 0.5), rgba(2, 15, 8, 0.5)),
+      url('../../../public/assets/images/about/bg-about-desk.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .container-about {
+      background-image: linear-gradient(
+          rgba(0, 24, 38, 0.75),
+          rgba(0, 37, 49, 0)
+        ),
+        linear-gradient(rgba(2, 15, 8, 0.5), rgba(2, 15, 8, 0.5)),
+        url('../../../public/assets/images/about/bg-about-desk@2x.jpg');
+    }
+  }
+}

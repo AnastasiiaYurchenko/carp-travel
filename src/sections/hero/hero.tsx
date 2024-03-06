@@ -11,7 +11,7 @@ import RightFrameDesk from '/public/assets/svg/right-frame-desk.svg';
 
 export default function Hero() {
   return (
-    <section className="section">
+    <section className="section-hero">
       <div className="md:flex justify-between md:gap-12 mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1440px] px-5 md:px-8 xl:px-[104px] pt-[105px] md:pt-[121px]  xl:pt-[130px] pb-14">
         <p className=" md:hidden ml-auto w-[118px] md:w-[230px]  xl:w-[305px] text-white font-thin uppercase text-right text-[37px] md:text-[67px] xl:text-[98px] tracking-[.04em] md:tracking-[.13em] xl:tracking-normal leading-[1.22] mb-6">
           <span className="font-medium xl:mr-2">7</span>days
