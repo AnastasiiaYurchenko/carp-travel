@@ -11,11 +11,11 @@ import RightFrameDesk from '/public/assets/svg/right-frame-desk.svg';
 
 export default function Hero() {
   return (
-    <div className="section">
+    <section className="section">
       <div className="mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1440px] px-5 md:px-8 xl:px-[104px] pt-[105px] md:pt-[121px]  pb-14">
         <h1 className="ml-auto w-[118px] md:w-[230px]  xl:w-[305px] text-white font-thin uppercase text-right text-[37px] md:text-[67px] xl:text-[98px] tracking-[.04em] md:tracking-[.13em] xl:tracking-normal leading-[1.22] mb-6">
           <span className="font-medium xl:mr-2">7</span>days
-          <span className="block font-light uppercase text-xs md:text-sm xl:text-base tracking-[.79em] md:tracking-[1.85em] xl:tracking-[2.28em] leading-tight mt-[-7px]">
+          <span className="block font-light uppercase text-xs md:text-sm xl:text-base tracking-[.79em] md:tracking-[1.85em] xl:tracking-[2.28em] leading-tight xl:leading-[1.19] mt-[-7px] xl:mt-[-8.5px]">
             journey
           </span>
         </h1>
@@ -48,6 +48,6 @@ export default function Hero() {
           <RightFrameDesk className="hidden xl:block absolute bottom-0 right-0" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function NavBar() {
   return (
-    <ul className="flex gap-6 xl:gap-14 justify-center items-center">
+    <ul className="hidden md:flex gap-6 xl:gap-14 justify-center items-center">
       {navs.map((item) => {
         return (
           <li key={item.id}>
