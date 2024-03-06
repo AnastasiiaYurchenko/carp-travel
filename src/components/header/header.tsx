@@ -50,7 +50,7 @@ export default function Header() {
         </nav>
 
         <button
-          className="md:hidden uppercase tracking-widest font-normal text-sm text-white outline-transparent hover:underline transition-all"
+          className="md:hidden uppercase tracking-widest font-normal text-sm text-white border-none outline-none hover:underline transition-all"
           type="button"
           onClick={toggleMenu}
         >
