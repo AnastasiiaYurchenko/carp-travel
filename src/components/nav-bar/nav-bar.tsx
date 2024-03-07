@@ -1,5 +1,5 @@
 import React from 'react';
-import navs from '../../app/navs.json';
+import navs from '../../app/data/navs.json';
 import Link from 'next/link';
 // import { Link } from 'react-scroll';
 
