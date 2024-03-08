@@ -7,9 +7,9 @@
     "img": "/assets/images/services-mob/photo-1-mob.jpg",
     "img-tab": "../../../public/assets/images/services-tab/photo-1-tab.jpg",
     "img-desk": "../../../public/assets/images/services-desk/photo-1-desk.jpg",
-    "bg-mob": "../../../public/assets/images/services-mob/bg-1-mob.jpg",
+    "bg": "/assets/images/services-mob/bg-1-mob.jpg",
     "bg-tab": "../../../public/assets/images/services-tab/bg-1-tab.jpg",
-    "bg-desk": "../../../public/assets/images/services-desk/bg-1-desk.jpg"
+    "bgd": "/assets/images/services-desk/bg-1-desk.jpg"
   },
   {
     "number": "02",
@@ -19,9 +19,9 @@
     "img": "/assets/images/services-mob/photo-2-mob.jpg",
     "img-tab": "../../../public/assets/images/services-tab/photo-2-tab.jpg",
     "img-desk": "../../../public/assets/images/services-desk/photo-2-desk.jpg",
-    "bg-mob": "../../../public/assets/images/services-mob/bg-2-mob.jpg",
+    "bg": "/assets/images/services-mob/bg-2-mob.jpg",
     "bg-tab": "../../../public/assets/images/services-tab/bg-2-tab.jpg",
-    "bg-desk": "../../../public/assets/images/services-desk/bg-2-desk.jpg"
+    "bgd": "/assets/images/services-desk/bg-2-desk.jpg"
   },
   {
     "number": "03",
@@ -31,9 +31,9 @@
     "img": "/assets/images/services-mob/photo-3-mob.jpg",
     "img-tab": "../../../public/assets/images/services-tab/photo-3-tab.jpg",
     "img-desk": "../../../public/assets/images/services-desk/photo-3-desk.jpg",
-    "bg-mob": "../../../public/assets/images/services-mob/bg-3-mob.jpg",
+    "bg": "/assets/images/services-mob/bg-3-mob.jpg",
     "bg-tab": "../../../public/assets/images/services-tab/bg-3-tab.jpg",
-    "bg-desk": "../../../public/assets/images/services-desk/bg-3-desk.jpg"
+    "bgd": "/assets/images/services-desk/bg-3-desk.jpg"
   },
   {
     "number": "04",
@@ -43,9 +43,9 @@
     "img": "/assets/images/services-mob/photo-4-mob.jpg",
     "img-tab": "../../../public/assets/images/services-tab/photo-4-tab.jpg",
     "img-desk": "../../../public/assets/images/services-desk/photo-4-desk.jpg",
-    "bg-mob": "../../../public/assets/images/services-mob/bg-4-mob.jpg",
+    "bg": "/assets/images/services-mob/bg-4-mob.jpg",
     "bg-tab": "../../../public/assets/images/services-tab/bg-4-tab.jpg",
-    "bg-desk": "../../../public/assets/images/services-desk/bg-4-desk.jpg"
+    "bgd": "/assets/images/services-desk/bg-4-desk.jpg"
   },
   {
     "number": "05",
@@ -55,8 +55,8 @@
     "img": "/assets/images/services-mob/photo-5-mob.jpg",
     "img-tab": "../../../public/assets/images/services-tab/photo-5-tab.jpg",
     "img-desk": "../../../public/assets/images/services-desk/photo-5-desk.jpg",
-    "bg-mob": "../../../public/assets/images/services-mob/bg-5-mob.jpg",
+    "bg": "/assets/images/services-mob/bg-5-mob.jpg",
     "bg-tab": "../../../public/assets/images/services-tab/bg-5-tab.jpg",
-    "bg-desk": "../../../public/assets/images/services-desk/bg-5-desk.jpg"
+    "bgd": "/assets/images/services-desk/bg-5-desk.jpg"
   }
 ]
