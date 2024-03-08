@@ -44,7 +44,16 @@ export default function Header() {
       <div className="mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1440px] px-5 md:px-8 xl:px-[104px] pt-9 md:pt-7 flex justify-between items-center">
         <nav className="w-full flex justify-between items-center">
           <Link href="/">
-            <Image src="/logo.png" width={61} height={33} alt="Logo" />
+            <Image
+              src="/assets/images/logo.png"
+              width={61}
+              height={33}
+              alt="Logo"
+              priority={false}
+              style={{
+                height: 'auto',
+              }}
+            />
           </Link>
           <NavBar />
         </nav>
