@@ -9,7 +9,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <Header />
       <main className="mx-auto">
