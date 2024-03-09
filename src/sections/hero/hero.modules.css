@@ -47,7 +47,6 @@
 
 @media (min-width: 1280px) {
   .section-hero {
-    max-width: 1440px;
     background-size:
       auto 146px,
       cover,

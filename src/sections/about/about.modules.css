@@ -1,4 +1,4 @@
-.container-about {
+.section-about {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -17,7 +17,7 @@
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .container-about {
+  .section-about {
     background-image: linear-gradient(rgba(0, 24, 38, 0.75), rgba(0, 37, 49, 0)),
       linear-gradient(rgba(2, 15, 8, 0.5), rgba(2, 15, 8, 0.5)),
       url('../../../public/assets/images/about/bg-about-m-320@2x.jpg');
@@ -25,7 +25,7 @@
 }
 
 @media (min-width: 321px) {
-  .container-about {
+  .section-about {
     background-image: linear-gradient(rgba(0, 24, 38, 0.75), rgba(0, 37, 49, 0)),
       linear-gradient(rgba(2, 15, 8, 0.5), rgba(2, 15, 8, 0.5)),
       url('../../../public/assets/images/about/bg-about-m-480.jpg');
@@ -34,7 +34,7 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .container-about {
+    .section-about {
       background-image: linear-gradient(
           rgba(0, 24, 38, 0.75),
           rgba(0, 37, 49, 0)
@@ -45,8 +45,8 @@
   }
 }
 
-@media (min-width: 768px) {
-  .container-about {
+@media (min-width: 481px) {
+  .section-about {
     background-image: linear-gradient(rgba(0, 24, 38, 0.75), rgba(0, 37, 49, 0)),
       linear-gradient(rgba(2, 15, 8, 0.5), rgba(2, 15, 8, 0.5)),
       url('../../../public/assets/images/about/bg-about-tab.jpg');
@@ -55,7 +55,7 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .container-about {
+    .section-about {
       background-image: linear-gradient(
           rgba(0, 24, 38, 0.75),
           rgba(0, 37, 49, 0)
@@ -66,9 +66,8 @@
   }
 }
 
-@media (min-width: 1280px) {
-  .container-about {
-    max-width: 1440px;
+@media (min-width: 769px) {
+  .section-about {
     background-size:
       auto 146px,
       cover,
@@ -81,7 +80,7 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .container-about {
+    .section-about {
       background-image: linear-gradient(
           rgba(0, 24, 38, 0.75),
           rgba(0, 37, 49, 0)
