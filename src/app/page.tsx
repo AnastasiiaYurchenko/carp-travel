@@ -4,6 +4,8 @@ import Hero from '@/sections/hero/hero';
 import About from '@/sections/about/about';
 import Services from '@/sections/services/services';
 import Career from '@/sections/career/career';
+import CareerForm from '@/sections/career-form/career-form';
+import Contacts from '@/sections/contacts/contacts';
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
         <About />
         <Services />
         <Career />
+        <CareerForm />
+        <Contacts />
       </main>
     </>
   );

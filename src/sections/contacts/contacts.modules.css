@@ -1,11 +1,11 @@
-.section-career-form {
+.section-contacts {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
   background-image: linear-gradient(rgba(0, 24, 38, 1), rgba(0, 37, 49, 0)),
     linear-gradient(rgba(0, 37, 49, 0), rgba(0, 24, 38, 1)),
     linear-gradient(rgba(2, 15, 8, 0.75), rgba(2, 15, 8, 0.75)),
-    url('../../../public/assets/images/career/bg-form-320.jpg');
+    url('../../../public/assets/images/contacts/bg-mob.jpg');
   background-repeat: no-repeat;
   background-size:
     auto 247px,
@@ -19,30 +19,50 @@
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .section-career-form {
+  .section-contacts {
     background-image: linear-gradient(rgba(0, 24, 38, 1), rgba(0, 37, 49, 0)),
       linear-gradient(rgba(0, 37, 49, 0), rgba(0, 24, 38, 1)),
       linear-gradient(rgba(2, 15, 8, 0.75), rgba(2, 15, 8, 0.75)),
-      url('../../../public/assets/images/career/bg-form-320@2x.jpg');
+      url('../../../public/assets/images/contacts/bg-mob@2x.jpg');
   }
 }
 
 @media (min-width: 321px) {
-  .section-career-form {
+  .section-contacts {
     background-image: linear-gradient(rgba(0, 24, 38, 1), rgba(0, 37, 49, 0)),
       linear-gradient(rgba(0, 37, 49, 0), rgba(0, 24, 38, 1)),
       linear-gradient(rgba(2, 15, 8, 0.75), rgba(2, 15, 8, 0.75)),
-      url('../../../public/assets/images/career/bg-form-767.jpg');
+      url('../../../public/assets/images/contacts/bg-tab.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .section-career-form {
+    .section-contacts {
       background-image: linear-gradient(rgba(0, 24, 38, 1), rgba(0, 37, 49, 0)),
         linear-gradient(rgba(0, 37, 49, 0), rgba(0, 24, 38, 1)),
         linear-gradient(rgba(2, 15, 8, 0.75), rgba(2, 15, 8, 0.75)),
-        url('../../../public/assets/images/career/bg-form-767@2x.jpg');
+        url('../../../public/assets/images/contacts/bg-tab@2x.jpg');
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .section-contacts {
+    background-image: linear-gradient(rgba(0, 24, 38, 1), rgba(0, 37, 49, 0)),
+      linear-gradient(rgba(0, 37, 49, 0), rgba(0, 24, 38, 1)),
+      linear-gradient(rgba(2, 15, 8, 0.75), rgba(2, 15, 8, 0.75)),
+      url('../../../public/assets/images/contacts/bg-desk.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-contacts {
+      background-image: linear-gradient(rgba(0, 24, 38, 1), rgba(0, 37, 49, 0)),
+        linear-gradient(rgba(0, 37, 49, 0), rgba(0, 24, 38, 1)),
+        linear-gradient(rgba(2, 15, 8, 0.75), rgba(2, 15, 8, 0.75)),
+        url('../../../public/assets/images/contacts/bg-desk@2x.jpg');
     }
   }
 }
