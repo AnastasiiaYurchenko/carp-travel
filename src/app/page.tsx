@@ -1,8 +1,9 @@
-import Hero from '@/sections/hero/hero';
+import Head from 'next/head';
 import Header from '@/components/header/header';
+import Hero from '@/sections/hero/hero';
 import About from '@/sections/about/about';
 import Services from '@/sections/services/services';
-import Head from 'next/head';
+import Career from '@/sections/career/career';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <About />
         <Services />
+        <Career />
       </main>
     </>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
-import navs from '../../app/data/navs.json';
 import Link from 'next/link';
+import navs from '../../app/data/navs.json';
 // import { Link } from 'react-scroll';
 
 export default function NavBar() {
