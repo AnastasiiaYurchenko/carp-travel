@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "img": "/assets/images/gallery/slide1.jpg",
+    "description": "Mountains"
+  },
+  {
+    "id": "2",
+    "img": "/assets/images/gallery/slide2.jpg",
+    "description": "Mountain lake"
+  },
+  {
+    "id": "3",
+    "img": "/assets/images/gallery/slide3.jpg",
+    "description": "Forest"
+  }
+]
