@@ -2,16 +2,19 @@
   {
     "id": "1",
     "img": "/assets/images/gallery/slide1.jpg",
+    "imgd": "/assets/images/gallery/slide1d.jpg",
     "description": "Mountains"
   },
   {
     "id": "2",
     "img": "/assets/images/gallery/slide2.jpg",
+    "imgd": "/assets/images/gallery/slide2d.jpg",
     "description": "Mountain lake"
   },
   {
     "id": "3",
     "img": "/assets/images/gallery/slide3.jpg",
+    "imgd": "/assets/images/gallery/slide3d.jpg",
     "description": "Forest"
   }
 ]

@@ -1,4 +1,4 @@
-import Head from 'next/head';
+// import Head from 'next/head';
 import Header from '@/components/header/header';
 import Hero from '@/sections/hero/hero';
 import About from '@/sections/about/about';
@@ -11,14 +11,14 @@ import Gallery from '@/sections/gallery/gallery';
 export default function Home() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any" />
-      </Head>
+      </Head> */}
       <Header />
       <main className="mx-auto">
         <Hero />
