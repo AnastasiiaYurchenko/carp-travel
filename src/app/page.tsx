@@ -6,6 +6,7 @@ import Services from '@/sections/services/services';
 import Career from '@/sections/career/career';
 import CareerForm from '@/sections/career-form/career-form';
 import Contacts from '@/sections/contacts/contacts';
+import Gallery from '@/sections/gallery/gallery';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Services />
         <Career />
         <CareerForm />
+        <Gallery />
         <Contacts />
       </main>
     </>
