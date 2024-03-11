@@ -1,7 +1,7 @@
 [
-  { "id": "id-1", "nav": "About", "path": "#about" },
-  { "id": "id-2", "nav": "Services", "path": "#services" },
-  { "id": "id-3", "nav": "Career", "path": "#career" },
-  { "id": "id-4", "nav": "Gallery", "path": "#gallery" },
-  { "id": "id-5", "nav": "Contacts", "path": "#contacts" }
+  { "id": "id-1", "nav": "About", "path": "about" },
+  { "id": "id-2", "nav": "Services", "path": "services" },
+  { "id": "id-3", "nav": "Career", "path": "career" },
+  { "id": "id-4", "nav": "Gallery", "path": "gallery" },
+  { "id": "id-5", "nav": "Contacts", "path": "contacts" }
 ]

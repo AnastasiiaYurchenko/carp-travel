@@ -1,7 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
+import { Link } from 'react-scroll';
 import navs from '../../app/data/navs.json';
-// import { Link } from 'react-scroll';
 
 export default function NavBar() {
   return (
@@ -10,13 +9,11 @@ export default function NavBar() {
         return (
           <li key={item.id}>
             <Link
-              href={item.path}
-              // to={item.path}
-              // spy={true}
-              // smooth={true}
-              // // offset={50}
-              // duration={500}
-              className="font-normal text-white text-sm leading-[1.21] tracking-widest"
+              to={item.path}
+              spy={true}
+              smooth={true}
+              duration={500}
+              className=" cursor-pointer font-normal text-white text-sm leading-[1.21] tracking-widest hover:underline transition-all"
             >
               {item.nav}
             </Link>

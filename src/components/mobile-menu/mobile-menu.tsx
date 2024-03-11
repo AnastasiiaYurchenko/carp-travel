@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import navs from '../../app/data/navs.json';
-import Link from 'next/link';
 
 export default function MobileMenu({ onClick }: { onClick: () => void }) {
   return (
@@ -17,13 +17,11 @@ export default function MobileMenu({ onClick }: { onClick: () => void }) {
           return (
             <li key={item.id}>
               <Link
-                href={item.path}
-                // to={item.path}
-                // spy={true}
-                // smooth={true}
-                // // offset={50}
-                // duration={500}
-                className="font-normal text-white text-lg leading-[1.21] tracking-widest hover:underline transition-all"
+                to={item.path}
+                spy={true}
+                smooth={true}
+                duration={500}
+                className=" cursor-pointer font-normal text-white text-lg leading-[1.21] tracking-widest hover:underline transition-all"
                 onClick={onClick}
               >
                 {item.nav}
