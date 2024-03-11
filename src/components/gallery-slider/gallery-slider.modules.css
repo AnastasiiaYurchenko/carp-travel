@@ -1,0 +1,101 @@
+.slider .swiper {
+  height: 294px;
+}
+@media screen and (min-width: 1280px) {
+  .slider .swiper {
+    height: 429px;
+  }
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+.slider .swiper-slide {
+  width: 415px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transform: scale(0.6) !important;
+  transition: all 200ms linear;
+  box-shadow: 0px 0px 100px 0px rgba(9, 20, 16, 0.25);
+  opacity: 1;
+  transition: 1s opacity ease-in-out;
+}
+@media screen and (min-width: 1280px) {
+  .slider .swiper-slide {
+    width: 606px;
+  }
+}
+
+.slider .swiper-slide img {
+  position: relative;
+  display: block;
+}
+
+.slider .swiper-slide.swiper-slide-active {
+  transform: scale(1.95) !important;
+}
+@media screen and (min-width: 1280px) {
+  .slider .swiper-slide.swiper-slide-active {
+    transform: scale(1.53) !important;
+  }
+}
+
+.slider .swiper-slide.swiper-slide-prev {
+  transform: translateX(-45px) scale(0.55) !important;
+}
+@media screen and (min-width: 1280px) {
+  .slider .swiper-slide.swiper-slide-prev {
+    transform: translateX(-69px) scale(0.79) !important;
+  }
+}
+
+.slider .swiper-slide.swiper-slide-next {
+  transform: translateX(50px) scale(0.55) !important;
+}
+@media screen and (min-width: 1280px) {
+  .slider .swiper-slide.swiper-slide-next {
+    transform: translateX(69px) scale(0.79) !important;
+  }
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  text-transform: uppercase;
+  font-family: Inter;
+  font-size: 33px;
+  font-weight: 100;
+  color: #fff;
+  line-height: 1.21;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  text-decoration: underline;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  transform: translate(56px, 110px);
+}
+@media screen and (min-width: 1280px) {
+  .swiper-button-prev {
+    transform: translate(224px, 173px);
+  }
+}
+
+.swiper-button-next {
+  transform: translate(-52px, 110px);
+}
+@media screen and (min-width: 1280px) {
+  .swiper-button-next {
+    transform: translate(-220px, 173px);
+  }
+}

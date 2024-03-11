@@ -1,22 +1,19 @@
 'use client';
 
-import React, { useRef, useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay, EffectCoverflow, A11y } from 'swiper/modules';
-import gallery from '../../../app/data/gallery.json';
+import React from 'react';
 import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay } from 'swiper/modules';
+import gallery from '../../app/data/gallery.json';
+import './gallery-slider.modules.css';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 export default function GallerySlider() {
-  const prevRef = useRef(null);
-  const nextRef = useRef(null);
-  const [_, setInit] = useState();
-
   return (
-    <div className="max-md:hidden">
+    <div className="slider max-md:hidden">
       <Swiper
         slidesPerView={3}
         spaceBetween={24}
@@ -25,18 +22,10 @@ export default function GallerySlider() {
         grabCursor={true}
         centeredSlides={true}
         navigation={{
-          prevEl: prevRef.current,
-          nextEl: nextRef.current,
+          prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-button-next',
         }}
-        onInit={() => setInit(true)}
-        effect={'coverflow'}
-        coverflowEffect={{
-          rotate: 0,
-          scale: 0.5,
-          modifier: 1,
-          slideShadows: true,
-        }}
-        modules={[Navigation, Autoplay, EffectCoverflow, A11y]}
+        modules={[Navigation, Autoplay]}
         className="mySwiper"
       >
         {gallery.map((item) => {
@@ -50,21 +39,22 @@ export default function GallerySlider() {
                 alt={item.description}
                 width={606}
                 height={294}
+                sizes="(min-width: 768px) 415px, (min-width: 1280px) 606px"
               />
             </SwiperSlide>
           );
         })}
         <button
           type="button"
-          ref={prevRef}
-          className="text-[33px] uppercase font-thin text-white hover:underline  leading-[1.21]"
+          className="swiper-button-prev"
+          aria-label="Previous Image"
         >
           Back
         </button>
         <button
           type="button"
-          className="absolute right-0 bottom-0 text-white uppercase text-[33px] font-thin hover:underline leading-[1.21]"
-          ref={nextRef}
+          className="swiper-button-next"
+          aria-label="Next Image"
         >
           Next
         </button>
