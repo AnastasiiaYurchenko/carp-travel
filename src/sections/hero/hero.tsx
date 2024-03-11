@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+// import { Link } from 'react-scroll';
+
 import './hero.modules.css';
 
 import LeftFrameMob from '/public/assets/svg/left-frame-mob.svg';
@@ -42,7 +44,12 @@ export default function Hero() {
           <div className="relative cursor-pointer md:inline-block">
             <Link
               href="#contacts"
-              className="inline-block w-full md:w-[230px] xl:w-[293px] py-[2.5px] md:py-[14px] xl:py-[16px] text-white uppercase font-bold text-lg xl:text-[32px] text-center leading-[2.67] md:leading-[1.29] bg-white/10 md:bg-white/5 transition-colors hover:bg-white/20"
+              // to="contacts"
+              // spy={true}
+              // smooth={true}
+              // duration={500}
+              className="cursor-pointer inline-block w-full md:w-[230px] xl:w-[293px] py-[2.5px] md:py-[14px] xl:py-[16px] text-white uppercase font-bold text-lg xl:text-[32px] text-center leading-[2.67] md:leading-[1.29] bg-white/10 md:bg-white/5 transition-colors hover:bg-white/20"
+              aria-label="Join us"
             >
               join now
             </Link>
