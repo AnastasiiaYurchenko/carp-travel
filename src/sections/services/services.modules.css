@@ -1,39 +1,8 @@
-/* .active {
-  font-weight: 500;
-  opacity: 1;
-}
-
-.diamond{
-    display: block;
-    width: 6px;
-    height: 6px;
-    transform: rotate(45deg);
-    background: #fff;
-} */
 #services .mySwiper {
   position: relative;
 }
 
-/* #services {
-  position: relative;
-  margin: 0 auto;
-  max-width: 480px;
-}
-
-@media (min-width: 768px) {
-  .mySwiper {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .mySwiper {
-    max-width: 1440px;
-  }
-} */
-
 #services .swiper-pagination {
-  /* position: relative; */
   display: flex;
   width: auto;
   flex-direction: column;
