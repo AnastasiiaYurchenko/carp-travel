@@ -18,7 +18,7 @@ export default function FormContacts() {
       <div className="md:flex md:flex-col lg:flex-row">
         <label
           htmlFor="fullname"
-          className=" text-[12px] font-extralight leading-6 tracking-[2.4px]"
+          className="text-white text-[12px] font-extralight leading-6 tracking-[2.4px]"
         >
           Full name
         </label>
@@ -45,7 +45,7 @@ export default function FormContacts() {
         <div className="relative">
           <label
             htmlFor="email"
-            className="text-[12px] font-extralight leading-6 tracking-[2.4px]"
+            className="text-white text-[12px] font-extralight leading-6 tracking-[2.4px]"
           >
             E-mail
           </label>
@@ -72,7 +72,7 @@ export default function FormContacts() {
       <div>
         <label
           htmlFor="message"
-          className="text-[12px] font-extralight leading-6 tracking-[2.4px]"
+          className="text-white text-[12px] font-extralight leading-6 tracking-[2.4px]"
         >
           Message
         </label>
