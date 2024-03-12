@@ -1,6 +1,7 @@
 import React from 'react';
 import advantages from '../../app/data/advantages.json';
 import './career.modules.css';
+import FormCareer from '@/components/form-career/form-career';
 
 export default function Career() {
   return (
@@ -18,24 +19,26 @@ export default function Career() {
         <h3 className="w-[180px] text-white uppercase font-extralight text-[30px] xl:text-[36px] leading-[1.2] xl:leading-[1.083] mb-9 md:mb-[56px] xl:mb-[45px] ml-auto ">
           Why us ?
         </h3>
-
-        <ul>
-          {advantages.map((item) => {
-            return (
-              <li
-                key={item.id}
-                className="w-[181px] text-right text-white mb-4 last:mb-0"
-              >
-                <p className="font-normal text-sm leading-[1.43] mb-2">
-                  {item.text}
-                </p>
-                <p className="font-extralight text-xs leading-[1.67]">
-                  {item.description}
-                </p>
-              </li>
-            );
-          })}
-        </ul>
+        <div className="md:flex gap-[20px]">
+          <ul>
+            {advantages.map((item) => {
+              return (
+                <li
+                  key={item.id}
+                  className="w-[181px] text-right text-white mb-4 last:mb-0"
+                >
+                  <p className="font-normal text-sm leading-[1.43] mb-2">
+                    {item.text}
+                  </p>
+                  <p className="font-extralight text-xs leading-[1.67]">
+                    {item.description}
+                  </p>
+                </li>
+              );
+            })}
+          </ul>
+          <FormCareer />
+        </div>
       </div>
     </section>
   );
