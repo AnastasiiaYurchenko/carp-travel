@@ -13,13 +13,13 @@ export default function FormCareer() {
   } = useForm();
   return (
     <form
-      className="form md:flex gap-5 lg:flex-col w-[280px] md:w-[704px] lg:w-[607px]"
+      className="form md:flex gap-5 xl:flex-col w-full md:w-[704px] lg:w-[607px]"
       onSubmit={handleSubmit((data) => console.log(data))}
     >
-      <div className="md:flex md:flex-col lg:flex-row">
+      <div className="md:flex md:flex-col xl:flex-row">
         <label
           htmlFor="fullname"
-          className="text-[12px] font-extralight leading-6 tracking-[2.4px]"
+          className="block text-white text-xs font-extralight leading-6 "
         >
           Full name
         </label>
@@ -32,12 +32,12 @@ export default function FormCareer() {
           name="fullName"
           placeholder="John Smith"
           type="text"
-          className="text-[13px] lg:text-[20px] font-extralight leading-6 bg-gray w-[280px] md:w-[221px] lg:w-[293px]"
+          className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray w-full md:w-[221px] xl:w-[293px]"
         />
         {errors.fullName && (
-          <p className="absolute right-0 lg:right-5 top-[52px] flex items-center justify-end">
+          <p className="absolute right-0 xl:right-5 top-[52px] flex items-center justify-end">
             <ErrorIcon />
-            <span className="text-orange text-[12px] font-extralight leading-6 tracking-[2.4px]">
+            <span className="text-orange text-xs font-extralight leading-6 ">
               Incorrect name
             </span>
           </p>
@@ -46,7 +46,7 @@ export default function FormCareer() {
         <div className="relative">
           <label
             htmlFor="email"
-            className="text-[12px] font-extralight leading-6 tracking-[2.4px]"
+            className="text-white text-xs font-extralight leading-6 "
           >
             E-mail
           </label>
@@ -58,22 +58,23 @@ export default function FormCareer() {
             name="email"
             type="email"
             placeholder="johnsmith@email.com"
-            className="text-[13px] lg:text-[20px] font-extralight leading-6 bg-gray w-[280px] md:w-[221px] lg:w-[293px]"
+            className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray w-full md:w-[221px] xl:w-[293px]"
           />
           {errors.email && (
             <p className="absolute right-0 top-[52px] flex items-center justify-end">
               <ErrorIcon />
-              <span className="text-orange text-[12px] font-extralight leading-6 tracking-[2.4px]">
+              <span className="text-orange text-xs font-extralight leading-6 ">
                 Invalid email
               </span>
             </p>
           )}
         </div>
       </div>
+
       <div>
         <label
           htmlFor="message"
-          className="text-[12px] font-extralight leading-6 tracking-[2.4px]"
+          className="block text-white text-xs font-extralight leading-6 "
         >
           Message
         </label>
@@ -82,11 +83,11 @@ export default function FormCareer() {
             required: true,
           })}
           name="message"
-          className="text-[13px] lg:text-[20px] font-extralight leading-6 bg-gray form-textarea resize-none w-[280px] md:w-[463px] lg:w-[607px] h-[193px] md:h-[221px] lg:h-[174px]"
+          className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray form-textarea resize-none w-full md:w-[463px] xl:w-[607px] h-[193px] md:h-[221px] xl:h-[174px]"
         />
         <button
           type="submit"
-          className="block text-[30px] lg:text-[32px] font-thin hover:font-medium focus:font-medium uppercase ml-auto mt-6"
+          className="block text-white text-[30px] xl:text-[32px] font-medium transition-all hover:underline uppercase ml-auto mt-6"
         >
           Send
         </button>

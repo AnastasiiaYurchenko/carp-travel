@@ -11,7 +11,7 @@ export default function Contacts() {
           contact <span className="font-medium">us</span>
         </h2>
         <div className="xl:flex justify-between gap-6">
-          <div className="grid grid-cols-[auto_auto] md:grid-cols-[auto_auto_50px_auto_auto] xl:grid-cols-[auto_auto] grid-rows-[auto_auto_auto] md:grid-rows-[auto_auto] xl:grid-rows-[auto_auto_auto] gap-x-5 justify-end md:justify-start md:ml-[36px] xl:ml-[107px]">
+          <div className="grid grid-cols-[auto_auto] md:grid-cols-[auto_auto_50px_auto_auto] xl:grid-cols-[auto_auto] grid-rows-[auto_auto_auto] md:grid-rows-[auto_auto] xl:grid-rows-[auto_auto_auto] gap-x-5 justify-end md:justify-start md:ml-[36px] xl:ml-[107px] mb-3">
             <p className="inline-block text-white text-xs font-extralight leading-[1.67] xl:leading-6 col-start-2 col-end-3 row-start-1 row-end-2 ">
               Phone number
             </p>
