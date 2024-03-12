@@ -1,5 +1,6 @@
 import React from 'react';
 import './career-form.modules.css';
+import FormCareer from '@/components/form-career/form-career';
 
 export default function CareerForm() {
   return (
@@ -9,6 +10,7 @@ export default function CareerForm() {
           Don&apos;t miss your opportunity! Fill out the form right now and join
           our team!
         </p>
+        <FormCareer />
       </div>
     </section>
   );

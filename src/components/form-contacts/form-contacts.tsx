@@ -57,12 +57,12 @@ export default function FormContacts() {
             name="email"
             type="email"
             placeholder="johnsmith@email.com"
-            className="bg-white opacity-[0.05] text-[13px] lg:text-[20px] font-extralight leading-6 bg-gray w-[280px] md:w-[221px] lg:w-[293px]"
+            className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray w-[280px] md:w-[221px] xl:w-[293px]"
           />
           {errors.email && (
             <p className="absolute right-0 top-[52px] flex items-center justify-end">
               <ErrorIcon />
-              <span className="text-orange text-[12px] font-extralight leading-6 tracking-[2.4px]">
+              <span className="text-orange text-[12px] font-extralight leading-6 tracking-[2.4]">
                 Invalid email
               </span>
             </p>
@@ -81,11 +81,11 @@ export default function FormContacts() {
             required: true,
           })}
           name="message"
-          className="bg-white opacity-[0.05] text-[13px] lg:text-[20px] font-extralight leading-6 bg-gray form-textarea resize-none w-[280px] md:w-[463px] lg:w-[607px] h-[193px] md:h-[221px] lg:h-[174px]"
+          className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray form-textarea resize-none w-[280px] md:w-[463px] xl:w-[607px] h-[193px] md:h-[221px] xl:h-[174px]"
         />
         <button
           type="submit"
-          className="block text-white text-[30px] lg:text-[32px] font-thin hover:font-medium focus:font-medium uppercase ml-auto mt-6"
+          className="block text-white text-[30px] xl:text-[32px] font-thin transition-all hover:underline uppercase ml-auto mt-6"
         >
           Send
         </button>

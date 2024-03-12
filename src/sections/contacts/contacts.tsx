@@ -11,7 +11,41 @@ export default function Contacts() {
           contact <span className="font-medium">us</span>
         </h2>
         <div>
-          <p className="text-[12px] font-extralight leading-[20px] lg:leading-6">
+          <p className="text-white text-[12px] font-extralight leading-[20px] xl:leading-6">
+            Phone number
+          </p>
+          <ul>
+            <li>
+              <a
+                href="tel:+380981234567"
+                className="transition-all hover:underline text-[14px] md:text-[16px] lg:text-[18px] font-normal leading-6"
+              >
+                +38 (098) 12 34 567
+              </a>
+            </li>
+            <li>
+              <a
+                href="tel:+380731234567"
+                className="transition-all hover:underline text-[14px] md:text-[16px] lg:text-[18px] font-normal leading-6"
+              >
+                +38 (073) 12 34 567
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="text-white text-[12px] font-extralight leading-[20px] xl:leading-6">
+            E-mail
+          </p>
+          <a
+            href="mailto:support@carptravel.com"
+            className="transition-all hover:underline text-[14px] md:text-[16px] lg:text-[18px] font-normal leading-6"
+          >
+            support@carptravel.com
+          </a>
+        </div>
+        <div>
+          <p className="text-white text-[12px] font-extralight leading-[20px] xl:leading-6">
             Follow us
           </p>
           <ul className="">
@@ -20,7 +54,7 @@ export default function Contacts() {
                 <li key={item.id}>
                   <a
                     href="#"
-                    className="hover:underline text-[14px] md:text-[16px] lg:text-[18px] font-normal leading-6"
+                    className="transition-all hover:underline text-[14px] md:text-[16px] lg:text-[18px] font-normal leading-6"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                   >
