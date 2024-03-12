@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Welcome to Carp-Travel: Embark on Extraordinary Journeys in the Heart of the Carpathians
 
-## Getting Started
+At Carp-Travel, we are not just a team – we are a community of passionate individuals dedicated to the mission of crafting unparalleled and memorable experiences amidst the breathtaking landscapes of the Carpathian Mountains. Our commitment goes beyond merely guiding you through nature; it is about fostering a profound connection with the mystical essence of the Carpathians.
 
-First, run the development server:
+WHO WE ARE
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+We are a team of enthusiasts who live and breathe the spirit of adventure. Our mission is clear – to curate journeys that transcend the ordinary and delve into the extraordinary. Carp-Travel is not just a travel company; it is a gateway to discover the untamed beauty and enchanting allure of the Carpathians.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+OUR MISSION
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We firmly believe that nature possesses a transformative power, capable of inspiring, fortifying character, and offering fresh perspectives. With this belief as our guiding principle, every Carp-Travel tour is meticulously designed to go beyond the surface, aiming to unlock your full potential, enrich your spiritual world, and create indelible memories.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+EXCEPTIONAL EXPERIENCES
 
-## Learn More
+Prepare to embark on a journey where each step is carefully curated to immerse you in the magical atmosphere of the Carpathians. Our tours are not just about visiting scenic spots; they are about becoming a part of the natural tapestry, feeling the pulse of the mountains, and connecting with the untamed beauty that surrounds you.
 
-To learn more about Next.js, take a look at the following resources:
+WHY CHOOSE CARP-TRAVEL
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Passionate Guides: Our team comprises seasoned guides who are not just experts in the terrain but are also passionate storytellers, ready to share the rich history and folklore of the Carpathians.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Tailored Itineraries: From adrenaline-pumping adventures to serene retreats, our diverse range of tours caters to every kind of adventurer. We understand that each traveler is unique, and so are our itineraries.
 
-## Deploy on Vercel
+Immersive Cultural Experiences: Beyond the landscapes, Carp-Travel brings you closer to the heart of local cultures. Engage in authentic interactions, savor traditional cuisine, and participate in age-old customs.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Environmental Stewardship: We are committed to preserving the pristine beauty of the Carpathians. Carp-Travel promotes sustainable tourism practices, ensuring that future generations can also revel in the natural wonders we cherish.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+JOIN US ON THIS UNFORGETTABLE JOURNEY
+
+Carp-Travel invites you to join us on a transformative adventure that transcends the ordinary. Whether you seek adrenaline-fueled escapades, tranquil retreats, or cultural immersions, we have the perfect journey waiting for you. Let the Carpathians be the canvas for your next extraordinary story.
