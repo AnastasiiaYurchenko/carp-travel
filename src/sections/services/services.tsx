@@ -113,7 +113,9 @@ export default function Services() {
                 className="flex gap-2 items-center w-[169px] xl:w-[236px] text-white opacity-50 uppercase font-extralight text-[20px] md:text-[22px] xl:text-[28px] leading-[0.85] md:leading-[0.81] xl:leading-[0.86] mb-4 xl:mb-6"
                 key={index}
               >
-                {title}
+                <button type="button" aria-label="Change slide">
+                  {title}
+                </button>
               </li>
             );
           })}
