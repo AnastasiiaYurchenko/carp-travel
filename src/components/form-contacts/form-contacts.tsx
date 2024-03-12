@@ -15,10 +15,10 @@ export default function FormContacts() {
       className="form md:flex gap-5 xl:flex-col w-full md:w-[704px] lg:w-[607px]"
       onSubmit={handleSubmit((data) => console.log(data))}
     >
-      <div className="md:flex md:flex-col xl:flex-row">
+      <div className="md:flex md:flex-col xl:flex-row mb-6">
         <label
           htmlFor="fullname"
-          className="block text-white text-xs font-extralight leading-6 "
+          className="block text-white text-xs font-extralight leading-loose tracking-[.2em]"
         >
           Full name
         </label>
@@ -28,10 +28,12 @@ export default function FormContacts() {
             minLength: 1,
             maxLength: 20,
           })}
+          id="fullname"
           name="fullName"
           placeholder="John Smith"
           type="text"
-          className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray w-full md:w-[221px] xl:w-[293px]"
+          autoComplete="off"
+          className="block bg-white opacity-[0.05] text-white text-[13px] xl:text-[20px] font-extralight leading-[1.85] w-full md:w-[221px] xl:w-[293px] h-[24px] pl-2 mb-6 placeholder:text-white placeholder:opacity-[0.2]"
         />
         {errors.fullName && (
           <p className="absolute right-0 xl:right-5 top-[52px] flex items-center justify-end">
@@ -45,7 +47,7 @@ export default function FormContacts() {
         <div className="relative">
           <label
             htmlFor="email"
-            className="text-white text-xs font-extralight leading-6 "
+            className="text-white text-xs font-extralight leading-loose tracking-[.2em] "
           >
             E-mail
           </label>
@@ -54,10 +56,12 @@ export default function FormContacts() {
               required: true,
               pattern: /^[a-zA-Z0-9]+@[a-zA-Z]+.[a-zA-Z]{2,3}$/,
             })}
+            id="email"
             name="email"
             type="email"
             placeholder="johnsmith@email.com"
-            className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray w-full md:w-[221px] xl:w-[293px]"
+            autoComplete="off"
+            className="bg-white opacity-[0.05] text-white text-[13px] xl:text-[20px] font-extralight leading-[1.85]  w-full md:w-[221px] xl:w-[293px] h-[24px] pl-2"
           />
           {errors.email && (
             <p className="absolute right-0 top-[52px] flex items-center justify-end">
@@ -73,7 +77,7 @@ export default function FormContacts() {
       <div>
         <label
           htmlFor="message"
-          className="block text-white text-xs font-extralight leading-6 "
+          className="block text-white text-xs font-extralight leading-loose tracking-[.2em] "
         >
           Message
         </label>
@@ -82,7 +86,7 @@ export default function FormContacts() {
             required: true,
           })}
           name="message"
-          className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray form-textarea resize-none w-full md:w-[463px] xl:w-[607px] h-[193px] md:h-[221px] xl:h-[174px]"
+          className="bg-white opacity-[0.05] text-white text-[13px] xl:text-[20px] font-extralight leading-6 form-textarea resize-none w-full md:w-[463px] xl:w-[607px] h-[193px] md:h-[221px] xl:h-[174px] p-2"
         />
         <button
           type="submit"

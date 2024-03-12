@@ -1,89 +1,73 @@
 'use client';
 import React from 'react';
 
-import { useForm } from 'react-hook-form';
-
-import ErrorIcon from '/public/assets/svg/error-icon.svg';
-
 export default function FormCareer() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
   return (
-    <form
-      className="form md:flex gap-5 xl:flex-col w-full md:w-[704px] lg:w-[607px]"
-      onSubmit={handleSubmit((data) => console.log(data))}
-    >
-      <div className="md:flex md:flex-col xl:flex-row">
+    <form className="form md:flex gap-5  w-full md:w-[704px] lg:w-[607px]">
+      <div>
         <label
           htmlFor="fullname"
-          className="block text-white text-xs font-extralight leading-6 "
+          className="block text-white text-xs font-extralight leading-loose tracking-[.2em] "
         >
           Full name
         </label>
         <input
-          {...register('fullName', {
-            required: true,
-            minLength: 1,
-            maxLength: 20,
-          })}
           name="fullName"
           placeholder="John Smith"
           type="text"
-          className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray w-full md:w-[221px] xl:w-[293px]"
+          className="text-white bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 h-[24px] w-full md:w-[222px] xl:w-[290px] mb-4 pl-2"
         />
-        {errors.fullName && (
-          <p className="absolute right-0 xl:right-5 top-[52px] flex items-center justify-end">
-            <ErrorIcon />
-            <span className="text-orange text-xs font-extralight leading-6 ">
-              Incorrect name
-            </span>
-          </p>
-        )}
+        <label
+          htmlFor="email"
+          className="block text-white text-xs font-extralight leading-loose tracking-[.2em] "
+        >
+          E-mail
+        </label>
+        <input
+          name="email"
+          type="email"
+          placeholder="johnsmith@email.com"
+          className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 w-full md:w-[221px] xl:w-[293px] mb-4 pl-2"
+        />
 
-        <div className="relative">
-          <label
-            htmlFor="email"
-            className="text-white text-xs font-extralight leading-6 "
-          >
-            E-mail
-          </label>
-          <input
-            {...register('email', {
-              required: true,
-              pattern: /^[a-zA-Z0-9]+@[a-zA-Z]+.[a-zA-Z]{2,3}$/,
-            })}
-            name="email"
-            type="email"
-            placeholder="johnsmith@email.com"
-            className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray w-full md:w-[221px] xl:w-[293px]"
-          />
-          {errors.email && (
-            <p className="absolute right-0 top-[52px] flex items-center justify-end">
-              <ErrorIcon />
-              <span className="text-orange text-xs font-extralight leading-6 ">
-                Invalid email
-              </span>
-            </p>
-          )}
-        </div>
+        <label
+          htmlFor="position"
+          className="block text-white text-xs font-extralight leading-loose tracking-[.2em] "
+        >
+          Position
+        </label>
+        <input
+          name="position"
+          placeholder="Movie maker"
+          type="text"
+          className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6  w-full md:w-[221px] xl:w-[293px] mb-4 pl-2"
+        />
+
+        <label
+          htmlFor="phone"
+          className="block text-white text-xs font-extralight leading-loose tracking-[.2em] "
+        >
+          Phone
+        </label>
+        <input
+          name="phone"
+          placeholder="+ 38 (097) 12 34 567"
+          type="tel"
+          className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6  w-full md:w-[221px] xl:w-[293px] mb-4 pl-2"
+        />
       </div>
 
       <div>
         <label
           htmlFor="message"
-          className="block text-white text-xs font-extralight leading-6 "
+          className="block text-white text-xs font-extralight leading-loose tracking-[.2em] "
         >
           Message
         </label>
         <textarea
-          {...register('message', {
-            required: true,
-          })}
+          id="message"
           name="message"
-          className="bg-white opacity-[0.05] text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray form-textarea resize-none w-full md:w-[463px] xl:w-[607px] h-[193px] md:h-[221px] xl:h-[174px]"
+          className="bg-white opacity-[0.05] text-white text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray form-textarea resize-none w-full md:w-[221px] xl:w-[234px] h-[193px] md:h-[228px] xl:h-[174px] p-2 focus:text-white"
         />
         <button
           type="submit"
