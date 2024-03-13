@@ -37,7 +37,8 @@
 .swiper-pagination-bullet {
   display: inline-block;
   height: 17px;
-  width: 169px;
+  max-width: 169px;
+  width: fit-content;
   color: #fff;
   opacity: 0.5;
   font-size: 20px;
@@ -49,21 +50,42 @@
   transition: all 250ms;
 }
 
+@media (min-width: 768px) {
+  .swiper-pagination-bullet {
+    max-width: 178px;
+    height: 18px;
+    font-size: 22px;
+    line-height: 0.818;
+  }
+}
+
 .swiper-pagination-bullet:hover {
   opacity: 1;
 }
 
 .swiper-pagination-bullet:nth-child(3) {
-  height: 30px;
+  height: 34px;
+}
+
+@media (min-width: 768px) {
+  .swiper-pagination-bullet:nth-child(3) {
+    height: 36px;
+  }
 }
 
 .swiper-pagination-bullet-active {
-  width: 185px;
+  max-width: 185px;
+  width: fit-content;
   font-weight: 500;
   opacity: 1;
   display: flex;
   gap: 8px;
   align-items: center;
+}
+@media (min-width: 768px) {
+  .swiper-pagination-bullet-active {
+    max-width: 200px;
+  }
 }
 
 .swiper-pagination-bullet-active::before {

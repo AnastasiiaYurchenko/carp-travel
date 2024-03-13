@@ -94,7 +94,7 @@ export default function Services() {
                   width={607}
                   height={429}
                 />
-                <p className="text-white font-extralight text-right md:text-left text-xs leading-[2] tracking-[.02em] mb-[224px] md:mb-[34px] xl:mb-244px col-start-2 col-end-3 row-start-3 row-end-4 xl:col-start-3 xl:col-end-4 xl:row-start-2 xl:row-end-3">
+                <p className="text-white font-extralight text-right md:text-left text-xs leading-[2] tracking-[.2em] mb-[224px] md:mb-[34px] xl:mb-244px col-start-2 col-end-3 row-start-3 row-end-4 xl:col-start-3 xl:col-end-4 xl:row-start-2 xl:row-end-3">
                   {card.text}
                 </p>
 
@@ -110,7 +110,7 @@ export default function Services() {
           {titles.map((title, index) => {
             return (
               <li
-                className="flex gap-2 items-center w-[169px] xl:w-[236px] text-white opacity-50 uppercase font-extralight text-[20px] md:text-[22px] xl:text-[28px] leading-[0.85] md:leading-[0.81] xl:leading-[0.86] mb-4 xl:mb-6"
+                className="inline-flex gap-2 items-center w-[169px] xl:w-[236px] text-white opacity-50 uppercase font-extralight text-[20px] md:text-[22px] xl:text-[28px] leading-[0.85] md:leading-[0.81] xl:leading-[0.86] mb-4 xl:mb-6"
                 key={index}
               >
                 <button type="button" aria-label="Change slide">
