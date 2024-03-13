@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
-import gallery from '../../app/data/gallery.json';
+import gallery from '../../data/gallery.json';
 import './gallery-slider.modules.css';
 
 import 'swiper/css';

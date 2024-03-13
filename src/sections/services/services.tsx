@@ -8,7 +8,7 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import { EffectFade, Pagination } from 'swiper/modules';
 import './services.modules.css';
-import cards from '../../app/data/cards.json';
+import cards from '../../data/cards.json';
 
 type Card = {
   number: string;

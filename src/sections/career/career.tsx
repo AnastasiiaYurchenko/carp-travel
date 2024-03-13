@@ -1,5 +1,5 @@
 import React from 'react';
-import advantages from '../../app/data/advantages.json';
+import advantages from '../../data/advantages.json';
 import './career.modules.css';
 import FormCareer from '@/components/form-career/form-career';
 

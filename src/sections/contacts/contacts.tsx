@@ -1,6 +1,6 @@
 import React from 'react';
 import FormContacts from '@/components/form-contacts/form-contacts';
-import socials from '../../app/data/socials.json';
+import socials from '../../data/socials.json';
 import './contacts.modules.css';
 
 export default function Contacts() {

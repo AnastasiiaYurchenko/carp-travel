@@ -1,5 +1,5 @@
 import React from 'react';
-import gallery from '../../app/data/gallery.json';
+import gallery from '../../data/gallery.json';
 import Image from 'next/image';
 
 export default function GalleryList() {

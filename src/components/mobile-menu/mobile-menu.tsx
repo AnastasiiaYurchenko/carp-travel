@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import navs from '../../app/data/navs.json';
+import navs from '../../data/navs.json';
 
 export default function MobileMenu({ onClick }: { onClick: () => void }) {
   return (
