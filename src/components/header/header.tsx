@@ -49,7 +49,7 @@ export default function Header() {
               width={61}
               height={33}
               alt="Logo"
-              priority={false}
+              priority={true}
               style={{
                 height: 'auto',
               }}
