@@ -43,7 +43,7 @@ export default function Header() {
     <header className="absolute z-10 w-full ">
       <div className="mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1440px] px-5 md:px-8 xl:px-[104px] pt-9 md:pt-7 flex justify-between items-center">
         <nav className="w-full flex justify-between items-center">
-          <Link href="/">
+          <Link href="/" aria-label="Logo Carp-Travel - Navigate to Home">
             <Image
               src="/assets/images/logo.png"
               width={61}

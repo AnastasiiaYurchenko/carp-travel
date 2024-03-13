@@ -49,18 +49,36 @@ export default function Hero() {
               // smooth={true}
               // duration={500}
               className="cursor-pointer inline-block w-full md:w-[230px] xl:w-[293px] py-[2.5px] md:py-[14px] xl:py-[16px] text-white uppercase font-bold text-lg xl:text-[32px] text-center leading-[2.67] md:leading-[1.29] bg-white/10 md:bg-white/5 transition-colors hover:bg-white/20"
-              aria-label="Join us"
+              aria-label="Go to Contacts Section"
             >
               join now
             </Link>
-            <LeftFrameMob className="absolute md:hidden bottom-0 left-0" />
-            <RightFrameMob className="absolute md:hidden bottom-0 right-0" />
+            <LeftFrameMob
+              className="absolute md:hidden bottom-0 left-0"
+              aria-label="Decoration border for Link Go to Contacts Section"
+            />
+            <RightFrameMob
+              className="absolute md:hidden bottom-0 right-0"
+              aria-label="Decoration border for Link Go to Contacts Section"
+            />
 
-            <LeftFrameTab className="absolute hidden md:block xl:hidden bottom-0 left-0" />
-            <RightFrameTab className="absolute hidden md:block xl:hidden bottom-0 right-0" />
+            <LeftFrameTab
+              className="absolute hidden md:block xl:hidden bottom-0 left-0"
+              aria-label="Decoration border for Link Go to Contacts Section"
+            />
+            <RightFrameTab
+              className="absolute hidden md:block xl:hidden bottom-0 right-0"
+              aria-label="Decoration border for Link Go to Contacts Section"
+            />
 
-            <LeftFrameDesk className="hidden xl:block absolute bottom-0 left-0" />
-            <RightFrameDesk className="hidden xl:block absolute bottom-0 right-0" />
+            <LeftFrameDesk
+              className="hidden xl:block absolute bottom-0 left-0"
+              aria-label="Decoration border for Link Go to Contacts Section"
+            />
+            <RightFrameDesk
+              className="hidden xl:block absolute bottom-0 right-0"
+              aria-label="Decoration border for Link Go to Contacts Section"
+            />
           </div>
         </div>
       </div>

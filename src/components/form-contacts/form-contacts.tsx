@@ -37,7 +37,7 @@ export default function FormContacts() {
         />
         {errors.fullName && (
           <p className="absolute right-0 xl:right-5 top-[52px] flex items-center justify-end">
-            <ErrorIcon />
+            <ErrorIcon aria-label="Error Indicator" />
             <span className="text-orange text-xs font-extralight leading-6 ">
               Incorrect name
             </span>
@@ -65,7 +65,7 @@ export default function FormContacts() {
           />
           {errors.email && (
             <p className="absolute right-0 top-[52px] flex items-center justify-end">
-              <ErrorIcon />
+              <ErrorIcon aria-label="Error Indicator" />
               <span className="text-orange text-xs font-extralight leading-6 ">
                 Invalid email
               </span>
