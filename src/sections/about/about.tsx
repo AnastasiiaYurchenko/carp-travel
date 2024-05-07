@@ -4,7 +4,7 @@ import './about.modules.css';
 export default function About() {
   return (
     <section id="about" className="section-about">
-      <div className="container-about py-14 md:py-16 xl:py-20 mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1440px] px-5 md:px-8 xl:px-20 md:grid md:grid-cols-3 xl:grid-cols-4 md:grid-rows-[auto_auto_auto_auto] xl:grid-rows-[auto_auto_auto]">
+      <div className="container-about py-14 md:py-16 xl:py-20 mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1280px] px-5 md:px-8 xl:px-6 md:grid md:grid-cols-3 xl:grid-cols-4 md:grid-rows-[auto_auto_auto_auto] xl:grid-rows-[auto_auto_auto]">
         <h2 className=" text-white uppercase font-thin text-[40px] md:text-[67px] xl:text-[98px] leading-[1.4] md:leading-[1.21] tracking-[-.04em] mb-2 col-start-1 col-end-3">
           who <span className="font-medium">we are</span>
         </h2>

@@ -6,7 +6,7 @@ import FormCareer from '@/components/form-career/form-career';
 export default function Career() {
   return (
     <section id="career" className="section-career">
-      <div className=" py-14 md:py-16 xl:py-20 mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1440px] px-5 md:px-8 xl:px-20 ">
+      <div className=" py-14 md:py-16 xl:py-20 mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1280px] px-5 md:px-8 xl:px-6 ">
         <div className="md:flex justify-between">
           <h2 className="text-white uppercase font-thin text-[40px] md:text-[67px] xl:text-[98px] leading-[1.4] md:leading-[1.21] tracking-[-.04em] mb-2 ">
             choose <span className="font-medium">us</span>

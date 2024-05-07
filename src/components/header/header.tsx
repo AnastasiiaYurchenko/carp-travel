@@ -41,7 +41,7 @@ export default function Header() {
 
   return (
     <header className="absolute z-10 w-full ">
-      <div className="mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1440px] px-5 md:px-8 xl:px-[104px] pt-9 md:pt-7 flex justify-between items-center">
+      <div className="mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1280px] px-5 md:px-8 xl:px-6 pt-9 md:pt-7 flex justify-between items-center">
         <nav className="w-full flex justify-between items-center">
           <Link href="/" aria-label="Logo Carp-Travel - Navigate to Home">
             <Image
@@ -50,9 +50,7 @@ export default function Header() {
               height={33}
               alt="Logo"
               priority={true}
-              style={{
-                height: 'auto',
-              }}
+              style={{ width: '61px', height: '33px' }}
             />
           </Link>
           <NavBar />

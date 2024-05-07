@@ -80,7 +80,7 @@ export default function Services() {
                 backgroundPosition: 'top, bottom, center, center',
               }}
             >
-              <div className="relative px-5 py-14 xl:py-20 mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1440px] md:px-8 xl:px-20 md:grid gap-x-[20px] md:grid-cols-[auto_auto] xl:grid-cols-[auto_auto_auto] md:grid-rows-[auto_auto_auto_auto] xl:grid-rows-[auto_auto_auto] ">
+              <div className="relative px-5 py-14 xl:py-20 mx-auto max-w-[480px] md:max-w-[768px] xl:max-w-[1280px] md:px-8 xl:px-6 md:grid gap-x-[20px] md:grid-cols-[auto_auto] xl:grid-cols-[auto_auto_auto] md:grid-rows-[auto_auto_auto_auto] xl:grid-rows-[auto_auto_auto] ">
                 <h2 className=" text-white uppercase font-thin text-[40px] md:text-[67px] xl:text-[98px] leading-[1.4] md:leading-[1.21] tracking-[-.04em] mb-6 md:mb-[23px] col-start-1 col-end-2">
                   we <span className="font-medium">offer</span>
                 </h2>
