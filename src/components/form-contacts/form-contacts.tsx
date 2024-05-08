@@ -87,6 +87,7 @@ export default function FormContacts() {
           {...register('message', {
             required: true,
           })}
+          id="message"
           name="message"
           className="bg-white opacity-[0.05] text-white text-[13px] xl:text-[20px] font-extralight leading-6 form-textarea resize-none w-full md:w-[463px] xl:w-[607px] h-[193px] md:h-[221px] xl:h-[174px] p-2"
         />

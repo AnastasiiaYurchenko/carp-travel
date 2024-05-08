@@ -37,6 +37,7 @@ export default function FormCareer() {
           Position
         </label>
         <input
+          id="position"
           name="position"
           placeholder="Movie maker"
           type="text"
@@ -50,6 +51,7 @@ export default function FormCareer() {
           Phone
         </label>
         <input
+          id="phone"
           name="phone"
           placeholder="+ 38 (097) 12 34 567"
           type="tel"
@@ -59,13 +61,14 @@ export default function FormCareer() {
 
       <div>
         <label
-          htmlFor="message"
+          htmlFor="message-career"
           className="block text-white text-xs font-extralight leading-loose tracking-[.2em] "
         >
           Message
         </label>
         <textarea
-          name="message"
+          id="message-career"
+          name="message-career"
           className="bg-white opacity-[0.05] text-white text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray form-textarea resize-none w-full md:w-[221px] xl:w-[234px] h-[193px] md:h-[228px] xl:h-[174px] p-2 focus:text-white"
         />
         <button
