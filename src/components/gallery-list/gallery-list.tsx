@@ -1,6 +1,7 @@
-import React from 'react';
-import gallery from '../../data/gallery.json';
 import Image from 'next/image';
+import React from 'react';
+
+import gallery from '../../data/gallery.json';
 
 export default function GalleryList() {
   const images = gallery.slice(0, 3);

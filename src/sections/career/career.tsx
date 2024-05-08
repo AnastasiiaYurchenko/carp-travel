@@ -1,7 +1,9 @@
 import React from 'react';
+
+import FormCareer from '@/components/form-career/form-career';
+
 import advantages from '../../data/advantages.json';
 import './career.modules.css';
-import FormCareer from '@/components/form-career/form-career';
 
 export default function Career() {
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './about.modules.css';
 
 export default function About() {

@@ -1,6 +1,8 @@
 import React from 'react';
-import './career-form.modules.css';
+
 import FormCareer from '@/components/form-career/form-career';
+
+import './career-form.modules.css';
 
 export default function CareerForm() {
   return (

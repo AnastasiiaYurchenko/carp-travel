@@ -1,5 +1,7 @@
 'use client';
+
 import React from 'react';
+
 import { useForm } from 'react-hook-form';
 
 import ErrorIcon from '/public/assets/svg/error-icon.svg';

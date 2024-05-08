@@ -1,8 +1,11 @@
 'use client';
+
 import React from 'react';
-import './gallery.modules.css';
+
 import GalleryList from '@/components/gallery-list/gallery-list';
 import GallerySlider from '@/components/gallery-slider/gallery-slider';
+
+import './gallery.modules.css';
 
 export default function Gallery() {
   return (

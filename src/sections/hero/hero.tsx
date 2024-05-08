@@ -3,14 +3,14 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-import './hero.modules.css';
-
 import LeftFrameMob from '/public/assets/svg/left-frame-mob.svg';
 import RightFrameMob from '/public/assets/svg/right-frame-mob.svg';
 import LeftFrameTab from '/public/assets/svg/left-frame-tab.svg';
 import RightFrameTab from '/public/assets/svg/right-frame-tab.svg';
 import LeftFrameDesk from '/public/assets/svg/left-frame-desk.svg';
 import RightFrameDesk from '/public/assets/svg/right-frame-desk.svg';
+
+import './hero.modules.css';
 
 export default function Hero() {
   return (
