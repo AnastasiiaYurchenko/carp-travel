@@ -15,34 +15,36 @@ export default function FormContacts() {
       className="form md:flex gap-5 xl:flex-col w-full md:w-[704px] lg:w-[607px]"
       onSubmit={handleSubmit((data) => console.log(data))}
     >
-      <div className="md:flex md:flex-col xl:flex-row mb-6">
-        <label
-          htmlFor="fullname"
-          className="block text-white text-xs font-extralight leading-loose tracking-[.2em]"
-        >
-          Full name
-        </label>
-        <input
-          {...register('fullName', {
-            required: true,
-            minLength: 1,
-            maxLength: 20,
-          })}
-          id="fullname"
-          name="fullName"
-          placeholder="John Smith"
-          type="text"
-          autoComplete="off"
-          className="block bg-white opacity-[0.05] text-white text-[13px] xl:text-[20px] font-extralight leading-[1.85] w-full md:w-[221px] xl:w-[293px] h-[24px] pl-2 mb-6 placeholder:text-white placeholder:opacity-[0.2]"
-        />
-        {errors.fullName && (
-          <p className="absolute right-0 xl:right-5 top-[52px] flex items-center justify-end">
-            <ErrorIcon aria-label="Error Indicator" />
-            <span className="text-orange text-xs font-extralight leading-6 ">
-              Incorrect name
-            </span>
-          </p>
-        )}
+      <div className="md:flex md:flex-col xl:flex-row xl:gap-5 mb-6">
+        <div className="relative">
+          <label
+            htmlFor="fullname"
+            className="block text-white text-xs font-extralight leading-loose tracking-[.2em]"
+          >
+            Full name
+          </label>
+          <input
+            {...register('fullName', {
+              required: true,
+              minLength: 1,
+              maxLength: 20,
+            })}
+            id="fullname"
+            name="fullName"
+            placeholder="John Smith"
+            type="text"
+            autoComplete="off"
+            className="block bg-white opacity-[0.05] text-white text-[13px] xl:text-[20px] font-extralight leading-[1.85] w-full md:w-[221px] xl:w-[293px] h-[24px] pl-2 mb-6 placeholder:text-white placeholder:opacity-[0.2]"
+          />
+          {errors.fullName && (
+            <p className="absolute right-0 xl:right-5 top-[52px] flex items-center justify-end">
+              <ErrorIcon aria-label="Error Indicator" />
+              <span className="text-orange text-xs font-extralight leading-6 ">
+                Incorrect name
+              </span>
+            </p>
+          )}
+        </div>
 
         <div className="relative">
           <label

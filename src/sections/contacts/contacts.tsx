@@ -50,10 +50,10 @@ export default function Contacts() {
             <ul className="col-start-2 col-end-3 row-start-3 row-end-4 md:col-start-5 md:col-end-6 md:row-start-1 md:row-end-3 xl:col-start-1 xl:col-end-2 xl:row-start-3 xl:row-end-4 xl:justify-self-end">
               {socials.map((item) => {
                 return (
-                  <li key={item.id}>
+                  <li key={item.id} className="xl:text-right">
                     <a
                       href="#"
-                      className="transition-all hover:underline text-white text-sm leading-[1.71] md:text-base md:leading-normal xl:text-lg xl:leading-[1.33] font-normal xl:text-right"
+                      className="transition-all hover:underline text-white text-sm leading-[1.71] md:text-base md:leading-normal xl:text-lg xl:leading-[1.33] font-normal "
                       target="_blank"
                       rel="noopener noreferrer nofollow"
                     >
