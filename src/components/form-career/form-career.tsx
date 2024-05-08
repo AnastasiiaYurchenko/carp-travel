@@ -59,13 +59,12 @@ export default function FormCareer() {
 
       <div>
         <label
-          htmlFor="message-career"
+          htmlFor="message"
           className="block text-white text-xs font-extralight leading-loose tracking-[.2em] "
         >
           Message
         </label>
         <textarea
-          id="message-career"
           name="message"
           className="bg-white opacity-[0.05] text-white text-[13px] xl:text-[20px] font-extralight leading-6 bg-gray form-textarea resize-none w-full md:w-[221px] xl:w-[234px] h-[193px] md:h-[228px] xl:h-[174px] p-2 focus:text-white"
         />
